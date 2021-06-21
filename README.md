@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Rocket.Q" src=".github/Rocket_Q.png" width="70%">
+  <img alt="Rocket.Q" src="https://user-images.githubusercontent.com/84260347/122699444-d2f4a680-d21f-11eb-8090-a8c9f5fff847.png" width="70%">
 </p>
 
 ## 🚀 Tecnologias
