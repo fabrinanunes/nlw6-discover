@@ -14,13 +14,19 @@
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="/image/favicon.svg" type="image/x-icon" />
+     <script src="/scripts/darkmode.js" defer></script>
 
     <title>Rocket.Q | Página Inicial</title>
   </head>
   <body>
     <div id="home" class="content">
       <header>
-        <a href="/"><img src="/images/logo.svg" alt="Logo Rocket.q" /></a>
+        <a href="/"><img id="logo" src="/images/logo.svg" alt="Logo Rocket.q" /></a>
+        <div class="toggle">
+          <p>Dark Mode</p>
+          <input type="checkbox" id="switch" name="theme">
+          <label for="switch">Toggle</label>
+        </div>
       </header>
 
       <div id="bg">

@@ -17,6 +17,7 @@
     <link rel="shortcut icon" href="/images/favicon.svg" type="image/x-icon" />
     <!--JS-->
     <script src="/scripts/main.js" defer type="module"></script>
+    <script src="/scripts/darkmode.js" defer></script>
 
     <title>Rocket.Q | Sala</title>
   </head>
@@ -24,7 +25,7 @@
     <div id="room" class="content">
       <header>
         <a href="/"
-          ><img src="/images/logo.svg" alt="Logo Rocket.q"
+          ><img id="logo" src="/images/logo.svg" alt="Logo Rocket.q"
         /></a>
         <div class="buttons">
           <div class="button outlined" id="room-id" data-id="<%= roomId %>">
@@ -34,6 +35,11 @@
           <a href="/create-room" class="button">
             <img src="/images/users-white.svg" alt="Users White" /> Criar sala
           </a>
+          <div class="toggle">
+          <p>Dark Mode</p>
+          <input type="checkbox" id="switch" name="theme">
+          <label for="switch">Toggle</label>
+        </div>
         </div>
       </header>
 
