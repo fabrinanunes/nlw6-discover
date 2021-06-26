@@ -1,5 +1,5 @@
 {
-  "name": "Discover",
+"name": "Discover",
   "version": "1.0.0",
   "description": "Projeto desenvolvido para gerenciar perguntas anônimas. Projeto desenvolvido na semana NLW Rocketseat - Missão Discover",
   "main": "src/server.js",
@@ -26,5 +26,9 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
-  }
+  },
+  "htmlhint.options": {
+    "spec-char-escape": false,
+    "doctype-first": false
+  } 
 }
